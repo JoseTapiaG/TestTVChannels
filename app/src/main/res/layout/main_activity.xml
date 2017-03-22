@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/channelFragment"
+        android:name="cl.josemanuel.testtvchannels.fragments.ChannelsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/channels_fragment" />
+
+    <fragment
+        android:id="@+id/viewer"
+        android:name="cl.josemanuel.testtvchannels.fragments.InfoFragment"
+        android:layout_width="190dp"
+        android:layout_height="match_parent"
+        tools:layout="@layout/info_fragment" />
+</LinearLayout>

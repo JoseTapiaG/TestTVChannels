@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TestTVChannels</string>
+    <string name="rich_input_label">TVService</string>
+</resources>
